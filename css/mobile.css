@@ -80,6 +80,21 @@
         gap: 1rem;
     }
 
+    .titlePrice{
+        width: 100%;
+    }
+
+    .containerItems{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .itemOne{
+        width: 100%;
+    }
+
     .descriptionProduct{
         width: 100%;
     }
@@ -90,6 +105,13 @@
 
     .iconPlus{
         display: block;
+    }
+
+    .iconPlus > button{
+        background: transparent;
+        border: none;
+        font-size: 1.5em;
+        cursor: pointer;
     }
 
     .priceProduct{
